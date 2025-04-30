@@ -27,7 +27,7 @@ spring:
     contexts: development
 
 server:
-  port: ${SERVER_PORT}
+  port: 8099
 
 log:
   execution:
