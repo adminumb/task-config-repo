@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: notification-service
+  datasource:
+    url: jdbc:postgresql://postgres:5432/notification-service?useUnicode=true&characterEncoding=UTF-8
+    username: postgres
+    password: 33386
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        generate_statistics: true
+        use_sql_comments: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  liquibase:
+    change-log: classpath:db.changelog/main-changelog.xml
+    enabled: true
+    default-schema: public
+    user: postgres
+    password: 33386
+    url: jdbc:postgresql://postgres:5432/notification-service?useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: org.postgresql.Driver
+    contexts: development
