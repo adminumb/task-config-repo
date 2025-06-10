@@ -22,6 +22,6 @@ spring:
     default-schema: public
     user: postgres
     password: 33386
-    url: jdbc:postgresql://postgres:5432/notification-service?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:postgresql://postgres:5432/notification?useUnicode=true&characterEncoding=UTF-8
     driver-class-name: org.postgresql.Driver
     contexts: development
