@@ -2,7 +2,7 @@ spring:
   application:
     name: notification-service
   datasource:
-    url: jdbc:postgresql://postgres:5432/notification-service?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:postgresql://postgres:5432/notification?useUnicode=true&characterEncoding=UTF-8
     username: postgres
     password: 33386
     driver-class-name: org.postgresql.Driver
