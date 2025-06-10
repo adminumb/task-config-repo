@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:postgresql://postgres:5432/notification?useUnicode=true&characterEncoding=UTF-8
     username: postgres
-    password: 33386
+    password: postgres
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
